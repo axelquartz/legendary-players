@@ -1,15 +1,21 @@
-*{
-    background-color: #222;
-    color: #fff;
+:root{
+    background-color: rgb(206, 206, 206);
+}
+h1{
+    text-align: center;
+}
+h2{
+    text-align: center;
 }
 /*Cards*/
 .player{
-    border: solid 2px white;
     padding: 20px;
-    max-width: 400px;
-    margin: auto;
+    max-width: 300px;
+    margin: 40px;
     display: flex;
     flex-direction: column;
+    background-color: #fff;
+    border-radius: 20px;
 
 }
 .player-title{
@@ -18,7 +24,7 @@
     text-align: center;
 }
 .player-image{
-    height: 300px;
+    max-width: 300px;
     padding: 30px 0;
     align-self: center;
 }
@@ -26,4 +32,22 @@
     margin: auto;
     padding: 0 0 30px 0;
     text-align: center;
+}
+.player-button{
+    width: 90%;
+    height: 40px;
+    background-color: #fff;
+    color: #222;
+    margin: 0 auto 30px auto;
+    border-radius: 5px;
+}
+a{
+    margin: 5px;
+    text-align: center;
+}
+.club{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    overflow: auto;
 }
